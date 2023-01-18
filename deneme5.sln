@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "deneme5", "deneme5\deneme5.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webapi", "webapi\webapi.csproj", "{28190729-AEA8-460D-B87E-EE97C7C9DEEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KitapeviEntity", "KitapeviEntity\KitapeviEntity.csproj", "{D16F8291-4C0C-4622-9CC5-7F310222DC58}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{28190729-AEA8-460D-B87E-EE97C7C9DEEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28190729-AEA8-460D-B87E-EE97C7C9DEEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28190729-AEA8-460D-B87E-EE97C7C9DEEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D16F8291-4C0C-4622-9CC5-7F310222DC58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D16F8291-4C0C-4622-9CC5-7F310222DC58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D16F8291-4C0C-4622-9CC5-7F310222DC58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D16F8291-4C0C-4622-9CC5-7F310222DC58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

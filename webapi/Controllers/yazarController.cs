@@ -5,14 +5,17 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using KitapeviEntity;
 
 namespace webapi.Controllers
 {
     public class yazarController : ApiController
     {
         SqlConnection baglanti = new SqlConnection("Server=.;Database=DB_KitapEvi;Trusted_Connection=True;");
+       
         public void getTumYazarlar()
         {
+            SqlCommand sorgu = new SqlCommand("");
 
         }
 
