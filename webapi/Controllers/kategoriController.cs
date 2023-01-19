@@ -100,5 +100,27 @@ namespace webapi.Controllers
                 return Ok();
             }
         }
+
+        public IHttpActionResult POSTKategoriyiSilme(int kid)
+        {/*
+            if (!ModelState.IsValid)
+            {
+                return BadRequest("Entity Uygun değil");
+            }*/
+            /*if (kategoriler.kategoriAd == null)
+            {
+                return NotFound();
+            }
+            else
+            {*/
+                SqlCommand sorgu = new SqlCommand("sp_kategoriyiSilme", baglanti);
+                sorgu.CommandType = System.Data.CommandType.StoredProcedure;
+                sorgu.Parameters.AddWithValue("@kategoriid", kid);
+                baglanti.Open();
+                sorgu.ExecuteNonQuery();
+                baglanti.Close();
+                return Ok();
+            //}
+        }
     }
 }
