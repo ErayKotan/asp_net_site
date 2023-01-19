@@ -66,8 +66,6 @@ namespace webapi.Controllers
             baglanti.Close();
             return kitaplarlistesi;
         }
-
-
     }
 }
 
