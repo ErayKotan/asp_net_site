@@ -74,7 +74,7 @@ namespace webapi.Controllers
                 return Ok();
             }
 
-        }
+        } 
 
         public IHttpActionResult PUTKategoriGuncellemee(kategorilerEntity kategoriler)
         {
